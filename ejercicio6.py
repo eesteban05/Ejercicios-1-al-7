@@ -1,0 +1,8 @@
+a = float(input("Dame el valor de a: "))
+b = float(input("Dame el valor de b: "))
+c = float(input("Dame el valor de c: "))
+d = ((b**2) - (4*a*c))
+x1 = (((0-b)+(pow(d,1/2)))/((2*a)))
+x2 = (((0-b)-(pow(d,1/2)))/((2*a)))
+print(x1)
+print(x2)
