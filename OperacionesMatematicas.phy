@@ -1,0 +1,35 @@
+# Ejemplo de Operaciones Matemáticas
+
+# Importando una librería de funciones matemáticas
+import math
+#Entradas (datos)
+# Variables
+numero1 = float(input("Escribe un número:  "))
+numero2 = float(input("Escribe otro número:  "))
+
+#Proceso
+print(1+2)
+suma = numero1 + numero2
+resta = numero1 - numero2
+multiplicacion = numero1 * numero2
+division = numero1 / numero2
+cuadrado = pow(numero1, 2) 
+cubo = pow(numero2, 3)
+potenciaubo = numero1 ** numero2
+raiz2 = math.sqrt(9)
+raiz22 = pow(numero2,1/2)
+raiz3 = pow(numero2,1/3)
+
+#Salida
+print("La suma es " + str(suma)) #concatenar
+print("La resta es ", str(resta)) #concatenar con coma
+print(f"la multiplicacion es {multiplicacion}") # interpolar
+print("la division es " + str(division))
+print("la division es ", division)
+print(f"la divison es {division}")
+print("el cuadrado de " + str(numero1) + " es " + str(cuadrado))
+print("el cubo de " + str(numero2) + " es ", str(cubo))
+print(f"la potencia es {potenciaubo}")
+print("la raiz cuadrada de 9 es ", str(raiz2))
+print("la raiz cuadrada de " + str(numero2) + " es ", str(raiz22))
+print("la raiz cubica de " + str(numero2) + " es ", str(raiz3))
