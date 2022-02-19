@@ -1,21 +1,15 @@
-
-from sre_constants import RANGE
-
-
+#variables:
 nivel = float(input("¿Cuál es el nivel de agua en la cisterna?  ")) 
-nivel0  = list((1,2))
-nivel1 = list((3,4))
-
-
-if(nivel < 0):
+#proceso:
+if(nivel < 0 ):
     print("Hay FUGA en la cisterna")
 elif(nivel == 0):
     print("Encender bomba de agua")
-elif(nivel == nivel0):
+elif(nivel > 0 and nivel < 3 ):
     print("Acelerar bomba de agua")
-elif(nivel == nivel1):
+elif(nivel >= 3 and nivel < 5):
     print("¡Bomba trabajando!")
-elif(nivel == range(5,6,1)):
+elif(nivel >= 5 and nivel < 6):
     print("Desacelerar bomba de agua")
 elif(nivel == 6):
     print("Apagar bomba de agua")
